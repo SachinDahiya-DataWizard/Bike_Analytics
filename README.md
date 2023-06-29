@@ -14,7 +14,7 @@ The project leverages various tools and technologies for data analysis, includin
 The project presents the findings and insights derived from the data analysis, including key metrics, trends, and visualisations. The Bike Ride Metrics Dashboard provides an interactive overview of the analysis results. The project also includes recommendations for marketing strategies based on the insights gained.
 
 # Getting Started
-To explore the project, you can clone the repository and access the provided datasets. The Bike Ride Metrics Dashboard can be accessed at the following link: [Bike Ride Metrics Dashboard](https://docs.google.com/spreadsheets/d/1lsj71lnCrQAjaW25xOsaszjqCYXPdrpA4Pw-UwWD8Yo/edit?usp=sharing). 
+To explore the project, you can access the Bike Ride Metrics Dashboard at the following link: [Bike Ride Metrics Dashboard](https://docs.google.com/spreadsheets/d/1lsj71lnCrQAjaW25xOsaszjqCYXPdrpA4Pw-UwWD8Yo/edit?usp=sharing). 
 # Future Scope
 The project sets the foundation for further analysis and exploration of the Cyclistic bike-sharing data. Future work could involve more advanced statistical modelling, predictive analytics, and deeper segmentation analysis to uncover additional insights.
 
