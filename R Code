@@ -5,7 +5,7 @@
 
 #******************************* January *********************************#
 # Load Data 
-jan <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202201-divvy-tripdata.csv')
+jan <- read.csv('/Data Analytics/Case Study/202201-divvy-tripdata.csv')
 jan_df <- data.frame(jan, ride_length = as_hms(difftime(jan$ended_at,jan$started_at)), 
                      day_of_week = weekdays(as.Date(jan$started_at)))
 
@@ -22,7 +22,7 @@ tab1(jan_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* February *********************************#
 # Load Data 
-feb <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202202-divvy-tripdata.csv')
+feb <- read.csv('/Data Analytics/Case Study/202202-divvy-tripdata.csv')
 feb_df <- data.frame(feb, ride_length = as_hms(difftime(feb$ended_at,feb$started_at)), 
                      day_of_week = weekdays(as.Date(feb$started_at)))
 
@@ -39,7 +39,7 @@ tab1(feb_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* March *********************************#
 # Load Data 
-mar <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202203-divvy-tripdata.csv')
+mar <- read.csv('/Data Analytics/Case Study/202203-divvy-tripdata.csv')
 mar_df <- data.frame(mar, ride_length = as_hms(difftime(mar$ended_at,mar$started_at)), 
                      day_of_week = weekdays(as.Date(mar$started_at)))
 
@@ -56,7 +56,7 @@ tab1(mar_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* April *********************************#
 # Load Data 
-apr <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202204-divvy-tripdata.csv')
+apr <- read.csv('/Data Analytics/Case Study/202204-divvy-tripdata.csv')
 apr_df <- data.frame(apr, ride_length = as_hms(difftime(apr$ended_at,apr$started_at)), 
                      day_of_week = weekdays(as.Date(apr$started_at)))
 
@@ -73,7 +73,7 @@ tab1(apr_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* May *********************************#
 # Load Data 
-may <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202205-divvy-tripdata.csv')
+may <- read.csv('/Data Analytics/Case Study/202205-divvy-tripdata.csv')
 may_df <- data.frame(may, ride_length = as_hms(difftime(may$ended_at,may$started_at)), 
                      day_of_week = weekdays(as.Date(may$started_at)))
 
@@ -90,7 +90,7 @@ tab1(may_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* June *********************************#
 # Load Data 
-jun <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202206-divvy-tripdata.csv')
+jun <- read.csv('/Data Analytics/Case Study/202206-divvy-tripdata.csv')
 jun_df <- data.frame(jun, ride_length = as_hms(difftime(jun$ended_at,jun$started_at)), 
                      day_of_week = weekdays(as.Date(jun$started_at)))
 
@@ -107,7 +107,7 @@ tab1(jun_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* July *********************************#
 # Load Data 
-jul <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202207-divvy-tripdata.csv')
+jul <- read.csv('/Data Analytics/Case Study/202207-divvy-tripdata.csv')
 jul_df <- data.frame(jul, ride_length = as_hms(difftime(jul$ended_at,jul$started_at)), 
                      day_of_week = weekdays(as.Date(jul$started_at)))
 
@@ -124,7 +124,7 @@ tab1(jul_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* August *********************************#
 # Load Data 
-aug <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202208-divvy-tripdata.csv')
+aug <- read.csv('/Data Analytics/Case Study/202208-divvy-tripdata.csv')
 aug_df <- data.frame(aug, ride_length = as_hms(difftime(aug$ended_at,aug$started_at)), 
                      day_of_week = weekdays(as.Date(aug$started_at)))
 
@@ -141,7 +141,7 @@ tab1(aug_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* September *********************************#
 # Load Data 
-sep <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202209-divvy-publictripdata.csv')
+sep <- read.csv('/Data Analytics/Case Study/202209-divvy-publictripdata.csv')
 sep_df <- data.frame(sep, ride_length = as_hms(difftime(sep$ended_at,sep$started_at)), 
                      day_of_week = weekdays(as.Date(sep$started_at)))
 
@@ -158,7 +158,7 @@ tab1(sep_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* October *********************************#
 # Load Data
-oct <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202210-divvy-tripdata.csv')
+oct <- read.csv('/Data Analytics/Case Study/202210-divvy-tripdata.csv')
 oct_df <- data.frame(oct, ride_length = as_hms(difftime(oct$ended_at,oct$started_at)), 
                      day_of_week = weekdays(as.Date(oct$started_at)))
 
@@ -175,7 +175,7 @@ tab1(oct_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* November *********************************#
 # Load Data
-nov <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202211-divvy-tripdata.csv')
+nov <- read.csv('/Data Analytics/Case Study/202211-divvy-tripdata.csv')
 nov_df <- data.frame(nov, ride_length = as_hms(difftime(nov$ended_at,nov$started_at)), 
                      day_of_week = weekdays(as.Date(nov$started_at)))
 
@@ -192,7 +192,7 @@ tab1(nov_df$day_of_week, sort.group = 'decreasing', cum.percent = F)
 
 #******************************* December *********************************#
 # Load Data
-dec <- read.csv('E:/Coursera/Google Data Analytics/Case Study/202212-divvy-tripdata.csv')
+dec <- read.csv('/Data Analytics/Case Study/202212-divvy-tripdata.csv')
 dec_df <- data.frame(dec, ride_length = as_hms(difftime(dec$ended_at,dec$started_at)), 
                      day_of_week = weekdays(as.Date(dec$started_at)))
 
