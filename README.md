@@ -1,7 +1,7 @@
 # Bike Analytics Project
 This repository contains the Bike Analytics project, which focuses on analysing bike-sharing data to gain insights into the usage patterns and behaviours of annual members and casual riders. The project aims to understand the differences between these two user groups and develop targeted marketing strategies to increase the conversion of casual riders into annual members.
 
-Dashboard Link:[Bike Ride Metrics Dashboard](https://docs.google.com/spreadsheets/d/1lsj71lnCrQAjaW25xOsaszjqCYXPdrpA4Pw-UwWD8Yo/edit?usp=sharing)
+Dashboard Link: [Bike Ride Metrics Dashboard](https://docs.google.com/spreadsheets/d/1lsj71lnCrQAjaW25xOsaszjqCYXPdrpA4Pw-UwWD8Yo/edit?usp=sharing)
 
 The Data: [Cyclistic's Historical Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
