@@ -3,7 +3,7 @@ This repository contains the Bike Analytics project, which focuses on analysing 
 
 Dashboard Link: [Bike Ride Metrics Dashboard](https://docs.google.com/spreadsheets/d/1lsj71lnCrQAjaW25xOsaszjqCYXPdrpA4Pw-UwWD8Yo/edit?usp=sharing)
 
-The Data: [Cyclistic's Historical Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
+DataSet Link: [Cyclistic's Historical Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 # Project Overview
 The Bike Analytics project explores the Cyclistic historical trip data to answer key questions such as how annual members and casual riders use Cyclistic bikes differently, why casual riders would purchase annual memberships, and how digital media can influence casual riders to become members. By analysing the data and identifying trends, the project provides valuable insights for Cyclistic's marketing team.
